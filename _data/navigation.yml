@@ -1,12 +1,44 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about
+  - title: "Categories"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
+
+sidebar:
+  - title: "Programming"
+    children:
+      - title: "HTML & CSS"
+        url: /categories/#htmlcss
+      - title: "Javascript"
+        url: /categories/#javascript
+      - title: "React JS"
+        url: /categories/#reactjs
+      - title: "React Native"
+        url: /categories/#reactnative
+      - title: "Node JS"
+        url: /categories/#nodejs
+      - title: "ES6"
+        url: /categories/#es6
+      - title: "Python"
+        url: /categories/#python
+
+  - title: "DB"
+    children:
+      - title: "Mongo"
+        url: /categories/#mongo
+
+  - title: "Etc"
+    children:
+      - title: "Git & Github"
+        url: /categories/# gitgithub
+      - title: "CLI & IDE"
+        url: /categories/#cliide
+      - title: "Markdown"
+        url: /categories/#markdown
+      - title: "Blog"
+        url: /categories/#blog
