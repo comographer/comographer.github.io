@@ -10,29 +10,29 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# theme: "minimal-mistakes-jekyll"
+theme: "minimal-mistakes-jekyll"
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale: "en-US"
-title: "Comographer's Blog"
+title: "Comographer's DevBlog"
 title_separator: "|"
 subtitle: "Version 1.0"
 name: "Geunmo Kim"
-description: "Just an ordinary beginner programmer's blog"
-url: "https://comographer.github.io/"
-baseurl: "https://comographer.github.io/"
+description: "Just an oridinary beginner programmer's devblog"
+url: #"https://comographer.github.io"
+baseurl: #"https://comographer.github.io"
 repository: "comographer/comographer.github.io"
 teaser: /assets/images/teaser_image.jpg
-logo: /assets/images/Profile.png
-masthead_title: "Comographer"
+logo: /assets/images/logo.jpg
+masthead_title: ""
 # breadcrumbs            : false # true, false (default)
 words_per_minute: 200
 comments:
-  provider: # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider: "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname: comographer.github.io
+    shortname: "comographer.github.io"
   discourse:
     server: # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -58,8 +58,8 @@ reCaptcha:
   secret:
 atom_feed:
   path: # blank (default) uses feed.xml
-  hide: # true, false (default)
-search: # true, false (default)
+  hide: true # true, false (default)
+search: true # true, false (default)
 search_full_content: # true, false (default)
 search_provider: # lunr (default), algolia, google
 algolia:
@@ -79,7 +79,7 @@ baidu_site_verification:
 
 # Social Sharing
 twitter:
-  username:
+  username: "_comographer"
 facebook:
   username:
   app_id:
@@ -101,27 +101,27 @@ analytics:
 
 # Site Author
 author:
-  name: "Your Name"
-  avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "I am an **amazing** person."
-  location: "Somewhere"
-  email:
+  name: "Geunmo Kim"
+  avatar: "/assets/images/Profile.png"
+  bio: "Just an ordinary beginner programmer"
+  location: "Belgrade, RS"
+  email: "kimgeunmo@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      # url: "mailto:kimgeunmo@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
+      url: "https://twitter.com/_comographer"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/comographer"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -131,13 +131,13 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
+      url: "https://twitter.com/_comographer"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/comographer"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -210,9 +210,9 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 10 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Belgrade
 
 # Plugins (previously gems:)
 plugins:
@@ -221,7 +221,6 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-  - jekyll-remote-theme
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -279,4 +278,3 @@ defaults:
       comments: true
       share: true
       related: true
-      show_date: true
