@@ -10,29 +10,29 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-theme: "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+# theme: "minimal-mistakes-jekyll"
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale: "en-US"
-title: "Site Title"
-title_separator: "-"
-subtitle: # site tagline that appears below site title in masthead
-name: "Your Name"
-description: "An amazing website."
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl: # the subpath of your site, e.g. "/blog"
-repository: # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title: # overrides the website title displayed in the masthead, use " " for no title
+title: "Comographer's Blog"
+title_separator: "|"
+subtitle: "Version 1.0"
+name: "Geunmo Kim"
+description: "Just an ordinary beginner programmer's blog"
+url: "https://comographer.github.io/"
+baseurl: "https://comographer.github.io/"
+repository: "comographer/comographer.github.io"
+teaser: /assets/images/teaser_image.jpg
+logo: /assets/images/Profile.png
+masthead_title: "Comographer"
 # breadcrumbs            : false # true, false (default)
 words_per_minute: 200
 comments:
   provider: # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname: # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname: comographer.github.io
   discourse:
     server: # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -73,8 +73,9 @@ google:
 # SEO Related
 google_site_verification:
 bing_site_verification:
-yandex_site_verification:
 naver_site_verification:
+yandex_site_verification:
+baidu_site_verification:
 
 # Social Sharing
 twitter:
@@ -220,6 +221,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-remote-theme
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -273,7 +275,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: # true
+      read_time: false
+      comments: true
       share: true
       related: true
+      show_date: true
