@@ -21,7 +21,7 @@ title_separator: "|"
 subtitle: "It's never too late"
 name: "Geunmo Kim"
 description: "Just an oridinary beginner programmer's devblog"
-url: #"https://comographer.github.io"
+url: "https://comographer.github.io"
 baseurl: #"https://comographer.github.io"
 repository: "comographer/comographer.github.io"
 teaser: /assets/images/teaser_image.jpg
