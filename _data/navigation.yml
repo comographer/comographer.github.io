@@ -12,8 +12,6 @@ main:
 sidebar:
   - title: "Programming"
     children:
-      - title: "HTML & CSS"
-        url: /categories/#htmlcss
       - title: "Javascript"
         url: /categories/#javascript
       - title: "React JS"
@@ -22,8 +20,6 @@ sidebar:
         url: /categories/#reactnative
       - title: "Node JS"
         url: /categories/#nodejs
-      - title: "ES6"
-        url: /categories/#es6
       - title: "Python"
         url: /categories/#python
 
@@ -34,6 +30,8 @@ sidebar:
 
   - title: "Etc"
     children:
+      - title: "HTML & CSS"
+        url: /categories/#htmlcss
       - title: "Git & Github"
         url: /categories/# gitgithub
       - title: "CLI & IDE"

@@ -18,7 +18,7 @@ minimal_mistakes_skin: "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon
 locale: "en-US"
 title: "Comographer's DevBlog"
 title_separator: "|"
-subtitle: "Version 1.0"
+subtitle: "It's never too late"
 name: "Geunmo Kim"
 description: "Just an oridinary beginner programmer's devblog"
 url: #"https://comographer.github.io"
@@ -27,12 +27,12 @@ repository: "comographer/comographer.github.io"
 teaser: /assets/images/teaser_image.jpg
 logo: /assets/images/logo.jpg
 masthead_title: ""
-# breadcrumbs            : false # true, false (default)
+breadcrumbs: true # true, false (default)
 words_per_minute: 200
 comments:
   provider: "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname: "comographer.github.io"
+    shortname: "comographer"
   discourse:
     server: # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -115,7 +115,7 @@ author:
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/_comographer"
+      url: #"https://twitter.com/_comographer"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
@@ -131,7 +131,7 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/_comographer"
+      url: #"https://twitter.com/_comographer"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
@@ -278,5 +278,6 @@ defaults:
       comments: true
       share: true
       related: true
+      show_date: true
       sidebar:
         nav: "sidebar"
