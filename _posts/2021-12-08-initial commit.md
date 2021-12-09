@@ -3,8 +3,11 @@ layout: single
 title: "Initial Commit"
 date: 2021-12-08 23:00:00 +0100
 categories: blog
-tags:
+tags: jekyll markdown
+toc: true
 ---
+
+# Welcome!
 
 This blog will be about my `coding/programming` learning journey.
 Earlier this summer, I have tried learing to code and that lasted about a good three months.
@@ -23,3 +26,24 @@ And yes, I am a huge **`WoW`** fan
 ```
 
 ![test_image](/assets/images/Profile.png)
+
+Below is test sample code to check kramdown
+
+```python
+class <className>:
+
+    <class_attribute_name> = <value>
+
+    def __init__(self,<param1>, <param2>, ...):
+        self.<attr1> = <param1>
+        self.<attr2> = <param2>
+        .
+        .
+        .
+        # As many attributes as needed
+
+   def <method_name>(self, <param1>, ...):
+       <code>
+
+   # As many methods as needed
+```
