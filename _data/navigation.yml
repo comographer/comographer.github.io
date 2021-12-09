@@ -2,14 +2,16 @@
 main:
   - title: "Home"
     url: /
-  - title: "About"
-    url: /about
+  # - title: "About"
+  #   url: /about
   - title: "Category"
     url: /categories/
   - title: "Tags"
     url: /tags/
+  - title: "Search"
+    url: /search/
 
-sidebar:
+docs:
   - title: "Programming"
     children:
       - title: "Javascript"
@@ -33,7 +35,7 @@ sidebar:
       - title: "HTML & CSS"
         url: /categories/#htmlcss
       - title: "Git & Github"
-        url: /categories/# gitgithub
+        url: /categories/#gitgithub
       - title: "CLI & IDE"
         url: /categories/#cliide
       - title: "Markdown"

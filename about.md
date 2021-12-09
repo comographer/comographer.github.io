@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 author_profile: true
 sidebar:
-  nav: "sidebar"
+  nav: "docs"
 ---
 
 # This page is under construction

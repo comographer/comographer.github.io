@@ -19,12 +19,12 @@ locale: "en-US"
 title: "Comographer's DevBlog"
 title_separator: "|"
 subtitle: "It's never too late"
-name: "Geunmo Kim"
+name: "Comographer"
 description: "Just an oridinary beginner programmer's devblog"
 url: "https://comographer.github.io"
 baseurl: #"https://comographer.github.io"
 repository: "comographer/comographer.github.io"
-teaser: /assets/images/teaser_image.jpg
+teaser: #/assets/images/teaser_image.jpg
 logo: /assets/images/logo.jpg
 masthead_title: ""
 breadcrumbs: true # true, false (default)
@@ -59,7 +59,7 @@ reCaptcha:
 atom_feed:
   path: # blank (default) uses feed.xml
   hide: true # true, false (default)
-search: true # true, false (default)
+search: false # true, false (default)
 search_full_content: # true, false (default)
 search_provider: # lunr (default), algolia, google
 algolia:
@@ -101,7 +101,7 @@ analytics:
 
 # Site Author
 author:
-  name: "Geunmo Kim"
+  name: "Comographer"
   avatar: "/assets/images/Profile.png"
   bio: "Just an ordinary beginner programmer"
   location: "Belgrade, RS"
@@ -280,4 +280,4 @@ defaults:
       related: true
       show_date: true
       sidebar:
-        nav: "sidebar"
+        nav: "docs"

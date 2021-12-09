@@ -3,7 +3,7 @@ layout: single
 title: "Initial Commit"
 date: 2021-12-08 23:00:00 +0100
 categories: blog
-tags: jekyll markdown
+tags: jekyll
 toc: true
 ---
 
