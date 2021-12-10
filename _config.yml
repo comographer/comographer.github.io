@@ -12,7 +12,7 @@
 
 theme: "minimal-mistakes-jekyll"
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale: "en-US"
@@ -25,14 +25,14 @@ url: "https://comographer.github.io"
 baseurl: #"https://comographer.github.io"
 repository: "comographer/comographer.github.io"
 teaser: #/assets/images/teaser_image.jpg
-logo: /assets/images/logo.jpg
+logo: #/assets/images/logo.jpg
 masthead_title: ""
 breadcrumbs: true # true, false (default)
 words_per_minute: 200
 comments:
-  provider: "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider: "utterances" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname: "comographer"
+    shortname: #"comographer"
   discourse:
     server: # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -41,8 +41,8 @@ comments:
     num_posts: # 5 (default)
     colorscheme: # "light" (default), "dark"
   utterances:
-    theme: # "github-light" (default), "github-dark"
-    issue_term: # "pathname" (default)
+    theme: "photon-dark" # "github-light" (default), "github-dark"
+    issue_term: "pathname" # "pathname" (default)
   giscus:
     repo_id: # Shown during giscus setup at https://giscus.app
     category_name: # Full text name of the category
@@ -279,5 +279,7 @@ defaults:
       share: true
       related: true
       show_date: true
+      toc: true
+      toc_sticky: true
       sidebar:
         nav: "docs"
