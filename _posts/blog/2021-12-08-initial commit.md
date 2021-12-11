@@ -20,11 +20,15 @@ Below is just testing image for Markdown image link.
 
 And yes, I am a huge **`WoW`** fan
 
+## Test Image
+
 ```
 ![test_image](/assets/images/Profile.png)
 ```
 
 ![test_image](/assets/images/Profile.png)
+
+## Test Code
 
 Below is test sample code to check kramdown
 
