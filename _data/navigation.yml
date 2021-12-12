@@ -15,30 +15,30 @@ docs:
   - title: "Programming"
     children:
       - title: "Javascript"
-        url: /categories/#javascript
+        url: /categories/javascript
       - title: "React JS"
-        url: /categories/#reactjs
+        url: /categories/reactjs
       - title: "React Native"
-        url: /categories/#reactnative
+        url: /categories/reactnative
       - title: "Node JS"
-        url: /categories/#nodejs
+        url: /categories/nodejs
       - title: "Python"
-        url: /categories/#python
+        url: /categories/python
 
   - title: "DB"
     children:
       - title: "Mongo"
-        url: /categories/#mongo
+        url: /categories/mongo
 
   - title: "Etc"
     children:
       - title: "HTML & CSS"
-        url: /categories/#htmlcss
+        url: /categories/htmlcss
       - title: "Git & Github"
-        url: /categories/#gitgithub
+        url: /categories/gitgithub
       - title: "CLI & IDE"
-        url: /categories/#cliide
+        url: /categories/cliide
       - title: "Markdown"
-        url: /categories/#markdown
+        url: /categories/markdown
       - title: "Blog"
-        url: /categories/#blog
+        url: /categories/blog
