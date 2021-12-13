@@ -28,7 +28,7 @@ docs:
   - title: "DB"
     children:
       - title: "Mongo"
-        url: /categories/mongo
+        url: /categories/mongodb
 
   - title: "Etc"
     children:
